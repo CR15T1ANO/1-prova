@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script-cadastro.js" defer></script>
+</head>
+<body>
+    
+    <div class="formulario">
+        <h1> Cadastro de Usuario </h1>
+        <div class="input">
+            <input type="text" name="" id="nome" required>
+            <label for="" class="labelInput">Nome</label>
+        </div>
+        <div class="input">
+            <input type="text" name="" id="email" required>
+            <label for="" class="labelInput">Email</label>
+        </div>
+        <div class="input">
+            <input type="password" name="" id="senha" required>
+            <label for="" class="labelInput">Senha</label>
+        </div>
+        <div class="input">
+            <input type="password" name="" id="confirmar-senha" required>
+            <label for="" class="labelInput">Confirmar Senha: </label>
+            <span id="senha-informada"></span>
+
+        </div>
+        <div class="input">
+            <label for="">Data de nascimento</label>
+            <input type="date" name="" id="data" required>
+        </div>
+        <div>
+            <button onclick="return validarCadastro()">Cadastrar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0.5px;
+    box-sizing: border-box;
+}
+.nav-link, .navbar-brand{
+    border: 2px solid rgb(126, 241, 97);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.card-title-index{ 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    color: white;
+}
+.nav-item{
+    padding: 5px;
+    border-radius: 10px;
+}
+.d-flex{
+    margin: 0 10px 0 20px ;
+}
+#texto-navbar{
+    color: #00ff00;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*html{
+    scroll-behavior: smooth;
+  }*/
+body{
+    background-image:  rgb(113, 4, 122);
+    
+}
+
+.container-fluid{
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 80px;
+}
+#texto-card-body{
+ text-align: center;
+ font-weight: bold;
+}
+.card-text-index{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.texto-drop-item{
+    font-weight: bold;
+}
+header{
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+.secao-header{
+    background-color: blueviolet;
+    border-radius: 8px;
+} 
+.card-secao-2{
+    background-color: rgba(184, 106, 207, 0.521);
+}
+.card-acai{/*CSS DA PAGINA ACAI*/
+    background-color: rgba(184, 106, 207, 0.521);
+    border-radius: 8px;
+}
+.card-cupuacu{/*CSS DA PAGINA CUPUACU*/
+    background-color: rgba(207, 199, 126, 0.685);
+    border-radius: 8px;
+}
+.tigela, .copo{
+    text-align: center;
+}
+.dropdown-menu{
+    background-color: rgb(126, 241, 97);
+    font-size: 20px;
+}
+.card-text{
+    font-size: 30PX;
+    font-weight: bold;
+}
+.container-footer{
+    color: rgb(11, 116, 235);
+    font-size: 20px;
+    font-weight: bold;
+}
+  .dropdown-item input {
+    margin-right: 10px;
+}
+/*CSS DA PAGINA SOBRE*/
+#sobre{
+    font-weight: bold;
+    background-color: rgba(217, 189, 226, 0.521);;
+}
+#card-formacao{
+    background-color: rgba(184, 106, 207, 0.521);;
+}
